@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adição e Subtração</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/Logo 2015-2020 JPG.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Jogo de Adição e Subtração</h1>
+        </header>
+        
+        <main>
+            <div id="jogo">
+                <h2 id="pergunta"></h2>
+                <p id="pontuacao">Pontuação: 0</p> <!-- Adicionando o elemento de pontuação -->
+                <input type="number" id="resposta" placeholder="Digite sua resposta">
+                <button onclick="verificar()">Enviar</button>
+                <p id="feedback"></p>
+                <button id="nova-pergunta" onclick="gerarPergunta()">Nova Pergunta</button>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Jogos Educativos Educacional. Todos os direitos reservados para a Escola Núbia Pereira Magalhães-CAIC.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
